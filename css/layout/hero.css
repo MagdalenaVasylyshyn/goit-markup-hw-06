@@ -57,17 +57,16 @@
   background-color: #404bbf;
 }
 
-@media screen and(min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-device-pixel-ratio: 2) {
-  .effective-solutions-section {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url();
-  }
+@media screen and(min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .effective-solutions-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/people-office-bg-mobile@2x.jpg);
+    }
 }
+
 
 @media screen and (min-width: 768px) {
   .effective-solutions-section {
@@ -132,6 +131,16 @@
   }
 }
 
+@media screen and(min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .effective-solutions-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/people-office-bg-tablet@2x.jpg);
+    }
+}
+
 @media screen and (min-width: 1158px) {
   .effective-solutions-section {
     background-color: #2e2f42;
@@ -191,4 +200,15 @@
   .order-service-button:focus {
     background-color: #404bbf;
   }
+}
+
+
+@media screen and(min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .effective-solutions-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../../images/people-office-bg@2x.jpg);
+    }
 }
