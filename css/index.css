@@ -6,4 +6,5 @@
 @import './base/container.css';
 
 /* LAYOUT */
-@import './layout/header.css'
+@import './layout/header.css';
+@import './layout/hero.css';
