@@ -1,5 +1,6 @@
 .page-footer {
     padding: 97px 0;
+    margin: 0 auto;
 }
 
 .logo-white-letters {
@@ -139,7 +140,7 @@
 
 @media screen and (min-width: 768px) {
     .page-footer {
-            padding-left: 108px;
+            margin: 0 auto;
         }
     
     
